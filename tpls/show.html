@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="{{data.css[0]}}">
+<link rel="stylesheet" href="css/show.css">
+<style>
+	.headline .img-place-holder{
+		background: url({{data.image||"images/default.jpg"}}) no-repeat 0 0;
+		background-size: cover;
+		height: 600px;
+	}
+</style>
+<header>
+	<h4>{{data.title}}</h4>
+</header>
+<article ng-bind-html="data.body">
+	
+</article>

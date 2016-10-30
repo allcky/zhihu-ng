@@ -1,0 +1,14 @@
+<header class="title" >
+{{title}}
+</header>
+<div class="list">
+	<figure ng-repeat="v in list">
+		<a href="#/show/{{v.id}}">
+			<div class="img" style="background-image:url({{v.images[0]||'images/default.jpg'}});">
+			</div>	
+			<figcaption>
+			{{v.title}}
+			</figcaption>
+		</a>
+	</figure>
+</div>
