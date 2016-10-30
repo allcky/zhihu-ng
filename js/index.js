@@ -13,4 +13,5 @@ apps.config(["$routeProvider",function($routeProvider){
 }])
 apps.run(function($rootScope){
 	$rootScope.ids =0;
+	$rootScope.titleName = "知乎日报"
 })
